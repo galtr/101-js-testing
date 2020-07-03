@@ -1,3 +1,7 @@
-export function expect(a) {
-  // do magic
+export function expect(value) {
+  return {
+    isNaN: function () {
+      // @todo
+    },
+  };
 }

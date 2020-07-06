@@ -20,7 +20,7 @@ expect(1).toBe(0); // false
 expect({}).toBe({}); // false
 expect([1, 2, 3]).toBe([1, 2, 3]); // false
 
-expect(function () {}).toBe(function () {}); // false
+expect(function () { }).toBe(function () { }); // false
 expect(foo()).toBe(foo()); // true
 console.groupEnd();
 
@@ -54,3 +54,6 @@ console.group();
 expect(withError).toThrowError(); // true;
 expect(withoutError).toThrowError(); // false;
 console.groupEnd();
+
+
+expect(0.1 + 0.2).toBe(0.3)

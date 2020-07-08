@@ -21,8 +21,9 @@ expect(10).isMultipleOf(5); // true
 expect(9).isMultipleOf(4); // false
 
 // Находятся ли числа близко друг к другу (вне зависимости от знака + или -)
+// округляем до 2 знака после запятой
 expect([1, 2]).approximately(0.5); // false. нет. числа не находятся в пределах 0.5
-expect([0.2, 0.1 + 0.2]).approximately(0.1); // false
+expect([0.2, 0.1 + 0.2]).approximately(0.1); // true
 expect([0.2, 0.3]).approximately(0.1); // true
 expect([1, 2]).approximately(1); // true
 

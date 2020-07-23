@@ -8,7 +8,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "hw1": "node src/homeworks/customExpect/index.js",
     "hw2str": "node src/homeworks/numberAndString/string.js",
-    "hw2num": "node src/homeworks/numberAndString/number.js"
+    "hw2num": "node src/homeworks/numberAndString/number.js",
+    "hw3": "node src/homeworks/objects/index.js"
   },
   "author": "",
   "license": "ISC"
